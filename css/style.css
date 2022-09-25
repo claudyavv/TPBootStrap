@@ -1,0 +1,54 @@
+body {
+		padding: 0x;
+		margin: 0 0 15px 0;
+		font-size: 20px;
+		width: 1920px;
+		height: 1080px;
+}
+
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+.img {
+	width: 300px;
+	height: 220px;
+}
+.card-personalizada {
+    width: 300px;
+	height:220px;
+}
+
+.a {
+	position: relative; 
+	width: 100%;
+	height: 100%;
+	borde:0ch
+	
+  } 
+  $container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+	xxl: 1320px
+  );
+
+
+  }
+  .btn-outline-success {
+	color: rgb(7, 5, 0);
+  }
+
+.btn-outline-success:focus{
+    background-color: #5168e6;
+    border-color: #5168e6;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
